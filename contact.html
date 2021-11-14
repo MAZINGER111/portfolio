@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./fonts/roboto/Roboto-Regular.woff">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body id="background-contact">
+
+
+    <!--Header-->
+    <div class="card-panel grey darken-4" id="main-contact">
+        <nav>
+            <nav class="nav-wrapper grey darken-4">
+                <div>
+                    <img src="img/Mazinger 2-02.jpg" alt="logo" id="logo-image" class="brand-logo">
+
+                    <a href="" class="sidenav-trigger" data-target="mobile-nav">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html" class="grey-text darken-3">About Me</a></li>
+                        <li><a href="portfolio.html" class="grey-text darken-3">Portfolio</a></li>
+                        <li><a href="certifications.html" class="grey-text darken-3">Certifications</a></li>
+                        <li><a href="contact.html" class="grey-text darken-1">Contact</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+        </nav>
+
+        <ul class="sidenav grey darken-4 white-text" id="mobile-nav">
+            <li><a href="index.html" class="grey-text darken-3 ">About Me</a></li>
+            <li><a href="portfolio.html" class="grey-text darken-3">Portfolio</a></li>
+            <li><a href="certifications.html" class="grey-text darken-3">Certifications</a></li>
+            <li><a href="contact.html" class="grey-text darken-3">Contact</a></li>
+
+
+
+        </ul>
+        <br>
+        <!--send a mail-->
+        <div class="row">
+            <div class="card-panel col l7 m6 s12">
+                <h3 id="letsTalk"> Let's talk</h3>
+                <form action="mailto:hussainmonsur18@gmail.com">
+                    <div>
+                        <span><b> Full Name</b></span>
+                        <input type="text" name="name" placeholder="Enter your full name">
+                    </div>
+                    <div>
+                        <span><b> Email</b></span>
+                        <input type="text" name="email" placeholder="Enter your email address">
+                    </div>
+                    <div>
+                        <span><b> Phone Number</b></span>
+                        <input type="tel" name="phone" placeholder="Enter your phone number" id="">
+                    </div>
+                    <div>
+                        <span><b> Message</b></span>
+                        <textarea name="message" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <a href="#" class="btn " id="button" style="font-weight: 350;"> <span
+                                style="text-transform: capitalize;"> Submit </span></a>
+                    </div>
+                    <br>
+                </form>
+            </div>
+            <div class="col l4 m4 s12 card-panel blue darken-3" id="social-media">
+                <h5 id="letsTalk2">Check out my social media pages</h5>
+                <br>
+                <div id="social-icon" class="white-text">
+                    <a href="https://www.twitter.com/_monsur18" class="white-text"><b> Twitter</b></a>
+                </div>
+                <div id="social-icon">
+                    <a href="https://www.linkedin.com/monsurhussain" class="white-text"><b> Linkedin</b></a>
+                </div>
+                <div id="social-icon">
+                    <a href="https://www.github.com/mazinger111" class="white-text"><b> Github</b></a>
+                </div>
+                <div id="social-icon">
+                   <h6> hussainmonsur18@gmail.com</h6>
+                </div>
+                    </div>
+        </div>
+
+        <footer class="grey-text">
+            <hr>
+            <div class="row">
+                <div class="col l12 m12 s12 center">
+                    <a href="https://www.twitter.com/_monsur18" class="grey-text darken-3">Twitter</a>
+                    <a href="https://www.linkedin.com/monsurhussain" class="grey-text darken-3">Linkedin</a>
+                    <a href="https://www.github.com/mazinger111" class="grey-text darken-3">Github</a>
+                </div>
+            </div>
+            <div class="center white-text">
+                <p>&copy;
+                    <script> document.write(new Date().getFullYear())</script> All Rights Reserved
+                </p>
+            </div>
+
+        </footer>
+    </div>
+
+
+
+    <script src="./js/jquery-2.1.1.min.js"></script>
+    <script src="./js/materialize.min.js"></script>
+    <script src="./js/utils.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

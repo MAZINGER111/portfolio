@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./fonts/roboto/Roboto-Regular.woff">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body id="background">
+
+
+    <!--Header-->
+    <div class="card-panel grey darken-4" id="main">
+        <nav>
+            <nav class="nav-wrapper grey darken-4">
+                <div>
+                    <img src="img/Mazinger 2-02.jpg" alt="logo" id="logo-image" class="brand-logo">
+
+                    <a href="" class="sidenav-trigger" data-target="mobile-nav">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html" class="grey-text darken-3">About Me</a></li>
+                        <li><a href="portfolio.html" class="grey-text darken-3">Portfolio</a></li>
+                        <li><a href="certifications.html" class="grey-text darken-3">Certifications</a></li>
+                        <li><a href="contact.html" class="grey-text darken-1">Contact</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+        </nav>
+
+        <ul class="sidenav grey darken-4 white-text" id="mobile-nav">
+            <li><a href="index.html" class="grey-text darken-3 ">About Me</a></li>
+            <li><a href="portfolio.html" class="grey-text darken-3">Portfolio</a></li>
+            <li><a href="certifications.html" class="grey-text darken-3">Certifications</a></li>
+            <li><a href="contact.html" class="grey-text darken-3">Contact</a></li>
+
+
+
+        </ul>
+        <br>
+        <div id="page-title">
+            <h2><strong>My Certificates</strong></h2>
+            <h6>Here are some of the certificates that I have earned so far</h6>
+        </div>
+        <div class="row">
+            <div class="col l4 s12 m4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/PMI Certificate.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4"><strong>Project Management Foundations</strong></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col l4 s12 m4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/DSC certificate.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4"><strong>Google DSC</strong></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col l4 s12 m4">
+                <div class="card  z-depth-2">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/RPA certificate.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4"><strong>Robotics Process Automation</strong></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="grey-text">
+            <hr>
+            <div class="row">
+                <div class="col l12 m12 s12 center">
+                    <a href="https://www.twitter.com/_monsur18" class="grey-text darken-3">Twitter</a>
+                    <a href="https://www.linkedin.com/monsur-hussain-629a118a" class="grey-text darken-3">Linkedin</a>
+                    <a href="https://www.github.com/mazinger111" class="grey-text darken-3">Github</a>
+                </div>
+            </div>
+            <div class="center white-text">
+                <p>&copy;
+                    <script> document.write(new Date().getFullYear())</script> All Rights Reserved
+                </p>
+            </div>
+
+        </footer>
+    </div>
+
+
+
+    <script src="./js/jquery-2.1.1.min.js"></script>
+    <script src="./js/materialize.min.js"></script>
+    <script src="./js/utils.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+    </script>
+</body>
+
+</html>
